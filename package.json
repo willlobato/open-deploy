@@ -1,0 +1,16 @@
+{
+  "name": "open-deploy",
+  "version": "1.0.0",
+  "description": "EAR with open deploy",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Will Lobato",
+  "license": "ISC",
+  "dependencies": {
+    "extract-zip": "^1.6.5",
+    "inquirer": "^3.3.0",
+    "start": "^5.1.0"
+  }
+}
