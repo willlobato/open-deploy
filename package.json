@@ -9,6 +9,7 @@
   "author": "Will Lobato",
   "license": "ISC",
   "dependencies": {
+    "clui": "^0.3.6",
     "extract-zip": "^1.6.5",
     "inquirer": "^3.3.0",
     "start": "^5.1.0"
