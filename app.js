@@ -64,15 +64,12 @@ async function openPackage(directory, extension, status, parameter = ALL_PACKAGE
 }
 
 async function main() {
-    //openDeploy(DIRECTORY, 'ear');
-    
     let question = {
         type: 'list',
         name: 'file',
         message: 'Which files do you want to open the packages?',
         default: ALL_PACKAGES,
         choices: [ALL_PACKAGES],
-
     };
 
     let packages = listPackage(DIRECTORY, 'ear');
